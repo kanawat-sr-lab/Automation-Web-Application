@@ -1,7 +1,7 @@
-รายงานการใช้ AI
-  1.แปลง requirement เป็นโครงระบบ วางหน้าหลักสำหรับ Dashboard, เครื่องจักร, Alarm, งานบำรุงรักษาและระบบผู้ใช้ โดยใช้ Next.js, TypeScript และ Tailwind CSS
-  2.สร้างหน้าตาและ interaction ทำ Dashboard, ตารางค้นหา/กรอง, ฟอร์มเพิ่มและแก้ไขข้อมูล, สถานะต่าง ๆ รวมถึงหน้า Login และ Logout 
-  3.เตรียมส่วนเชื่อมต่อ Supabase เขียน client สำหรับ Supabase Auth, route guard สำหรับตรวจ session และไฟล์ SQL migration ที่กำหนดตารางความสัมพันธ์และ RLS เพื่อจำกัดสิทธิ์ Admin/Technician
-  4.ตรวจและแก้ปัญหาระหว่างพัฒนารัน ESLint, TypeScript และ production build รวมถึงทดสอบหน้าเว็บและการเข้าถึงจาก browser แล้วปรับแก้เมื่อพบปัญหา 
-  5.นำขึ้น GitHub และ Vercel สร้าง commit แล้ว push ไปยัง GitHub จากนั้น deploy ขึ้น Vercel และตั้ง Supabase URL กับ anon/publishable key ใน Production Environment Variables โดยไม่ commit
-  6.ตรวจหลัง deploy ตรวจว่า production URL และหน้า Login ตอบ HTTP และปิด Vercel SSO protection เพื่อให้ผู้ใช้ทั่วไปเปิดเว็บได้ โดยการยืนยันผู้ใช้ยังทำผ่าน Supabase Auth
+#รายงานการใช้ AI
+  ##1.แปลง requirement เป็นโครงระบบ วางหน้าหลักสำหรับ Dashboard, เครื่องจักร, Alarm, งานบำรุงรักษาและระบบผู้ใช้ โดยใช้ Next.js, TypeScript และ Tailwind CSS
+  ##2.สร้างหน้าตาและ interaction ทำ Dashboard, ตารางค้นหา/กรอง, ฟอร์มเพิ่มและแก้ไขข้อมูล, สถานะต่าง ๆ รวมถึงหน้า Login และ Logout 
+  ##3.เตรียมส่วนเชื่อมต่อ Supabase เขียน client สำหรับ Supabase Auth, route guard สำหรับตรวจ session และไฟล์ SQL migration ที่กำหนดตารางความสัมพันธ์และ RLS เพื่อจำกัดสิทธิ์ Admin/Technician
+  ##4.ตรวจและแก้ปัญหาระหว่างพัฒนารัน ESLint, TypeScript และ production build รวมถึงทดสอบหน้าเว็บและการเข้าถึงจาก browser แล้วปรับแก้เมื่อพบปัญหา 
+  ##5.นำขึ้น GitHub และ Vercel สร้าง commit แล้ว push ไปยัง GitHub จากนั้น deploy ขึ้น Vercel และตั้ง Supabase URL กับ anon/publishable key ใน Production Environment Variables โดยไม่ commit
+  ##6.ตรวจหลัง deploy ตรวจว่า production URL และหน้า Login ตอบ HTTP และปิด Vercel SSO protection เพื่อให้ผู้ใช้ทั่วไปเปิดเว็บได้ โดยการยืนยันผู้ใช้ยังทำผ่าน Supabase Auth
